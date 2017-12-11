@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/search_bar" >
+
+    <!-- animated-vector 相当于是一个桥梁  静态的svg和动画连接的桥梁 -->
+    <target
+        android:animation="@animator/anim_search_fill"
+        android:name="search"/>
+    <target
+        android:animation="@animator/anim_bar_none"
+        android:name="bar"/>
+</animated-vector>
